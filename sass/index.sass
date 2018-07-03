@@ -1,0 +1,41 @@
+// declaring variables
+$standard_font: 'Oxygen', sans-serif
+$font_title: 'Indie Flower', cursive
+$text_font: 'IBM Plex Serif', regular, serif
+$standard_em: 2em
+// COLOR SCHEME:
+// newbees blue default color
+$newbees_blue: #55c4f5
+$newbees_blue: rgb(85,196,245)
+$newbees_dark: #403D58
+$newbees_light: #F2EFEA
+
+
+
+
+/* Border box declaration */
+html
+  box-sizing: border-box
+
+*,
+*:before,
+*:after
+  box-sizing: inherit
+
+/* navbar */
+.logo
+  color: #F2EFEA !important
+  margin-right: -5em
+  position: center
+  margin-right: 0em
+  padding:
+    right: 4em !important
+    left: 4em !important
+  font:
+    size: 1.3em
+    family: $standard_font
+
+// make element bigger when hovered
+a.logo
+  &:hover, &:active
+    color: #403D58 !important
