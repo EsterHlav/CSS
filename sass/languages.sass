@@ -61,6 +61,7 @@ a.logo
     display: block
     height: auto
   margin: 2em
+  border-left: solid 1px lightgrey !important
 
 .card-deck
   margin:
@@ -154,3 +155,35 @@ tr:nth-child(odd)
     right: 4em
     bottom: $standard_em
   float: right
+
+
+// media for card picture gallery
+// if the screen-width is less than 850px
+@media (max-width: 1250px)
+  .submit_button
+    float: left
+    margin-left: 3em
+  .title1
+    margin-top: 0em
+    font-size: 3em
+  .title2
+    font-size: 2.5em
+    margin-bottom: 2em
+
+@media (max-width: 880px)
+  .title1
+    margin-top: 1em
+    font-size: 2.3em
+    float: none
+    padding: 0em
+  .title2
+    font-size: 2em
+    margin-bottom: 2em
+
+@media (max-width: 470px)
+  .submit_button
+    margin:
+      top: $standard_em
+      left: 9em
+      bottom: $standard_em
+    float: left

@@ -50,10 +50,9 @@ a.logo
     top: 0.5em
 
 
-/* cards */
-.card-title
-  text-align: center
 
+
+/* cards */
 .card
   img
     width: 30%
@@ -71,12 +70,38 @@ a.logo
 
 
 
+/* grid system */
+.col-sm > img
+  width: 50%
+  display: block
+  margin:
+    left: auto
+    right: auto
+    top: 0.5em
+    bottom: 3em
+  padding: 1em
+
+.title1
+  margin-top: -1.5em
+  text-align: center
+  font:
+    family: $standard_font
+    size: 1.3em
+  color: $newbees_blue
+  margin-bottom: 3em
+  \:hover
+    color: purple
 
 
+// sass selectors
+h1, h2
+  color: grey
+
+h5 ~ p
+  color: $newbees_dark
 
 
-
-
-
-
-//
+// with bold
+#with_bold
+  text-align: center
+  font-weight: bold
