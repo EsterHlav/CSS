@@ -1,10 +1,6 @@
-# Project 0
+# Harvard Project
 
-Web Programming with Python and JavaScript
-
-For my project 0, I borrowed the theme from a big project I'm working on (which will also be my capstone project this upcoming Fall for finishing my DGMD MLA degree).
-
-The website www.newbeeslearn.com aims to be a platform for learning foreign languages with modules, exercises and vocabulary flashcards. For project 0, I simply practiced a random design and a basic content that my future web application can contain.
+## Web Programming with Python and JavaScript
 
 The main page, index.html is the base website, with a navbar linking all four htmls -- index.html (click on logo), french.html, spanish.html, german.html. The three websites named after a language are a simple example of what one website for learning a language can possible contain (the content is kept very simple for the purpose of this assignment..)
 
